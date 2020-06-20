@@ -1,0 +1,15 @@
+- name: "Filemanagers"
+  description: "Filemanagers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - caja
+    - mc
+    - nautilus
+    - nemo
+    - nemo-fileroller
+    - thunar
+    - pcmanfm
+    - ranger
