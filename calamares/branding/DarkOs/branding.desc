@@ -74,10 +74,10 @@ strings:
     versionedName:       DarkOs
     shortVersionedName:  DarkOS
     bootloaderEntryName: DarkOs
-    productUrl:          https://sourceforge.net/projects/darkos-arch
-    supportUrl:          https://sourceforge.net/projects/darkos-arch
-    knownIssuesUrl:      https://sourceforge.net/projects/darkos-arch
-    releaseNotesUrl:     https://sourceforge.net/projects/darkos-arch
+    productUrl:          https://darkos-arch.sourceforge.io
+    supportUrl:          https://darkos-arch.sourceforge.io
+    knownIssuesUrl:      https://darkos-arch.sourceforge.io
+    releaseNotesUrl:     https://darkos-arch.sourceforge.io
 
 # These images are loaded from the branding module directory.
 #
@@ -127,7 +127,7 @@ slideshowAPI: 2
 # branding component also ships a stylesheet.qss. Then they are
 # the corresponding CSS attributes of #sidebarApp.
 style:
-   sidebarBackground:    "#353945"
-   sidebarText:          "#ECEDEE"
+   sidebarBackground:    "#05063d"
+   sidebarText:          "#000000"
    sidebarTextSelect:    "#FFFFFF"
-   sidebarTextHighlight: "#D35400"
+   sidebarTextHighlight: "#141A39"
