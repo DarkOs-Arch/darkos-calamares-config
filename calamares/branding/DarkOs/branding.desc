@@ -67,7 +67,7 @@ windowPlacement: center
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         "@{NAME}"
+    productName:         "DarkOs"
     shortProductName:    DarkOs
     version:             10.0
     shortVersion:        10.0
