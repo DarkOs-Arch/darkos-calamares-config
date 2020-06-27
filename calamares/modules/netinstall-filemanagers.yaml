@@ -11,5 +11,7 @@
     - nemo
     - nemo-fileroller
     - thunar
+    - thunar-archive-plugin
+    - thunar-volman
     - pcmanfm
     - ranger

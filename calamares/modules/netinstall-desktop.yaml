@@ -1,0 +1,80 @@
+- name: "Budgie"
+  description: "Installs budgie desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - budgie-desktop
+    - budgie-extras
+    - dconf-editor
+
+- name: "Cinnamon"
+  description: "Installs cinnamon desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - cinnamon
+    - cinnamon-translations
+
+- name: "Deepin"
+  description: "Installs deepin desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - deepin
+    - deepin-extra
+
+- name: "Gnome"
+  description: "Installs gnome desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - gnome
+    - gnome-extra
+
+- name: "Lxqt"
+  description: "Installs lxqt desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - lxqt
+    - pavucontrol
+
+- name: "Mate"
+  description: "Installs mate desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - mate
+    - mate-extra
+    - mate-tweak
+
+- name: "Plasma"
+  description: "Installs plasma desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - plasma-meta
+    - breeze
+    - cryfs
+    - kde-applications-meta
+    - kde-system-meta
+    - kdeconnect
+    - ktorrent
+    - packagekit-qt5
+    - partitionmanager
+
+- name: "Xfce"
+  description: "Installs xfce desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - xfce4
+    - xfce4-goodies
