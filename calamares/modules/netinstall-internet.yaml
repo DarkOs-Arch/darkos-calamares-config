@@ -5,29 +5,22 @@
   selected: false
   expanded: true
   packages:
-    - brave
     - firefox
     - deluge
-    - dropbox
     - falkon
     - filezilla
     - firefox-adblock-plus
     - firefox-i18n-$LOCALE
     - geary
-    - google-chrome
     - hexchat
-    - insync
     - evolution
     - chromium
     - qbittorrent
-    - vivaldi
-    - vivaldi-codecs-ffmpeg-extra-bin
     - ktorrent
     - midori
     - min
     - netsurf
     - nextcloud-client
-    - opera
     - pidgin
     - qutebrowser
     - thunderbird

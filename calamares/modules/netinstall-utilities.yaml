@@ -14,7 +14,6 @@
     - dmidecode
     - evince
     - glances
-    - google-earth-pro
     - grsync
     - gtop
     - gufw
@@ -23,8 +22,6 @@
     - lm_sensors
     - lshw
     - open-vm-tools
-    - optimus-manager
-    - octopi
     - powertop
     - putty
     - sigil
@@ -32,9 +29,6 @@
     - screenfetch
     - synapse
     - sysprof
-    - systemd-manager
-    - timeshift
     - vnstat
     - wireshark-qt
-    - wttr
     - youtube-dl

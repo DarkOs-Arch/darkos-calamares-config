@@ -25,7 +25,6 @@
   selected: false
   expanded: true
   packages:
-    - gitahead-bin
     - gitg
     - gitfiend
     - gitkraken
@@ -36,10 +35,7 @@
   selected: false
   expanded: true
   packages:
-    - bitwarden-bin
-    - enpass-bin
     - keepassxc
-    - lastpass
     - lastpass-cli
 - name: "Privacy"
   description: "Applications that ensure your privacy"
@@ -48,7 +44,6 @@
   selected: false
   expanded: true
   packages:
-    - tor-browser
     - tor
     - privoxy
     - torsocks
@@ -59,7 +54,6 @@
   selected: false
   expanded: true
   packages:
-    - etcher-bin
     - imagewriter
     - woeusb
 - name: "Virtualbox for Linux kernel"

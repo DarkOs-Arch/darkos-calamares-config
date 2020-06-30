@@ -6,14 +6,12 @@
   expanded: true
   packages:
     - atom
-    - brackets-bin
-    - code
     - geany-plugins
     - geany
     - intellij-idea-community-edition
     - kdevelop
     - leafpad
     - notepadqq
+    - xed
     - openscad
     - pycharm-community-edition
-    - visual-studio-code-bin
