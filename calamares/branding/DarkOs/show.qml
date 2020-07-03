@@ -31,7 +31,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 5000
+        interval: 7000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -114,7 +114,7 @@ Presentation
 
         Image {
             id: background8
-            source: "welcome-7.png"
+            source: "welcome-8.png"
             width: 800; height: 450
             fillMode: Image.PreserveAspectFit
       anchors.centerIn: parent
@@ -126,7 +126,7 @@ Presentation
 
         Image {
             id: background9
-            source: "welcome-8.png"
+            source: "welcome-7.png"
             width: 800; height: 450
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parent
