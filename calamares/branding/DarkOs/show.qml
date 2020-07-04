@@ -115,7 +115,7 @@ Presentation
         Image {
             id: background8
             source: "welcome-8.png"
-            width: 800; height: 450
+            width: 492; height: 400
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -138,7 +138,7 @@ Presentation
         Image {
             id: background9
             source: "welcome-7.png"
-            width: 800; height: 450
+            width: 492; height: 400
             fillMode: Image.PreserveAspectFit
 	    anchors.centerIn: parent
         }
@@ -162,7 +162,7 @@ Presentation
         Image {
             id: background10
             source: "welcome-9.png"
-            width: 800; height: 450
+            width: 492; height: 400
             fillMode: Image.PreserveAspectFit
 	    anchors.centerIn: parent
         }
@@ -186,7 +186,7 @@ Presentation
         Image {
             id: background11
             source: "welcome-10.png"
-            width: 800; height: 450
+            width: 492; height: 400
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
