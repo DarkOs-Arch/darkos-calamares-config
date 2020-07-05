@@ -115,7 +115,7 @@ Presentation
         Image {
             id: background8
             source: "welcome-8.png"
-            width: 492; height: 400
+            width: 472; height: 300
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -126,7 +126,7 @@ Presentation
                   "DarkOs Has A Collection Of Decent Wallpapers.<br/>"+
                   "Inspired By The Witcher Series."
             wrapMode: Text.WordWrap
-            width: 600
+            width: 800
             horizontalAlignment: Text.Center
 
 	}
@@ -138,7 +138,7 @@ Presentation
         Image {
             id: background9
             source: "welcome-7.png"
-            width: 492; height: 400
+            width: 472; height: 300
             fillMode: Image.PreserveAspectFit
 	    anchors.centerIn: parent
         }
@@ -149,7 +149,7 @@ Presentation
                   "DarkOs Is A Community Guided OS .<br/>"+
                   "Wanna Improve DarkOs Join The Community."
             wrapMode: Text.WordWrap
-            width: 600
+            width: 800
             horizontalAlignment: Text.Center
 
         }
@@ -162,7 +162,7 @@ Presentation
         Image {
             id: background10
             source: "welcome-9.png"
-            width: 492; height: 400
+            width: 472; height: 300
             fillMode: Image.PreserveAspectFit
 	    anchors.centerIn: parent
         }
@@ -173,7 +173,7 @@ Presentation
                   "DarkOs Has 3 Edition.<br/>"+
                   "One Hell - Soopertrack - Schmedding "
             wrapMode: Text.WordWrap
-            width: 600
+            width: 800
             horizontalAlignment: Text.Center
 
         }
@@ -186,7 +186,7 @@ Presentation
         Image {
             id: background11
             source: "welcome-10.png"
-            width: 492; height: 400
+            width: 472; height: 300
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -196,7 +196,7 @@ Presentation
             text: "Enjoy Using Linux<br/>"+
                   "That's DarkOs Goal.<br/>"
             wrapMode: Text.WordWrap
-            width: 600
+            width: 800
             horizontalAlignment: Text.Center
 
         }
