@@ -15,12 +15,28 @@
     - cuda
     - intel-ucode
     - amd-ucode
-- name: "Kde Extra"
-  description: "Plasma Extra Applications / Utilities / Games ..."
+- name: "Desktop"
+  description: "List Of Available Desktop Environments"
   critical: false
   hidden: false
   selected: false
   packages:
+    - budgie-desktop
+    - budgie-extras
+    - cinnamon
+    - cinnamon-translations
+    - deepin
+    - deepin-extra
+    - gnome
+    - gnome-extra
+    - lxqt
+    - lxde
+    - mate
+    - mate-extra
+    - mate-tweak
+    - plasma-meta
+    - kde-applications-meta
+    - kde-system-meta
     - kde-accessibility-meta
     - kdeconnect
     - kdenetwork-filesharing
@@ -32,12 +48,35 @@
     - kde-pim-meta
     - kde-sdk-meta
     - kde-webdev-meta
+    - xfce4
+    - xfce4-goodies
+    - enlightenment
+- name: "Window Manager"
+  description: "List Of Available Window Managers"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - awesome
+    - bspwm
+    - herbstluftwm
+    - i3-gaps
+    - i3status
+    - jwm
+    - openbox
+    - qtile
+    - xmonad
+    - xmonad-contrib
+    - haskell-dbus
+    - xmonad-log
+    - xmonad-utils
 - name: "Terminal"
   description: "Terminals"
   critical: false
   hidden: false
   selected: false
   packages:
+    - xterm
     - alacritty
     - gnome-terminal
     - guake
@@ -65,6 +104,7 @@
     - firefox-adblock-plus
     - firefox-i18n-$LOCALE
     - geary
+    - hexchat
     - evolution
     - chromium
     - qbittorrent
@@ -99,6 +139,7 @@
   hidden: false
   selected: false
   packages:
+    - emacs
     - atom
     - geany-plugins
     - geany
@@ -111,7 +152,7 @@
     - openscad
     - pycharm-community-edition
 - name: "File Managers"
-  description: "Additional File managers"
+  description: "List Of Available File managers"
   critical: false
   hidden: false
   selected: false
@@ -202,12 +243,17 @@
     - grsync
     - gtop
     - gufw
+    - ufw
+    - hddtemp
     - kbackup
+    - lm_sensors
+    - lshw
     - open-vm-tools
     - powertop
     - putty
     - sigil
     - simple-scan
+    - neofetch
     - screenfetch
     - synapse
     - sysprof
@@ -224,9 +270,13 @@
     - volumeicon
     - pavucontrol
     - blueberry
+    - kde-gtk-config
+    - ark
+    - ffmpegthumbs
     - spectacle
     - okular
     - gwenview
+    - systemd-kcm
     - ocs-url
     - mugshot
     - menulibre
@@ -234,48 +284,131 @@
     - lxappearance-gtk3
     - lxappearance-obconf
     - lxappearance-obconf-gtk3
+    - yad
+    - python-pyparted
+    - pamac-aur
+    - mintstick-git
+    - inxi
+    - grub-customizer
+    - hardcode-fixer-git
+    - downgrade
     - archiso
     - wttr
+    - glxinfo
+    - zenity
+    - w3m
+    - webkit2gtk
+    - wmctrl
+    - xapps
+    - xdo
+    - xdotool
+    - unace
+    - unrar
+    - unzip
     - vnstat
     - shotwell
     - speedtest-cli
     - timeshift
     - tlp
     - flameshot
+    - rxvt-unicode
     - rofi
     - polkit-gnome
+    - python2-dbus
+    - python2-xdg
     - qt4
     - qt5ct
     - qt5-styleplugins
     - qt5-tools
     - qt5-webkit
     - powertop
+    - reflector
     - redshift
+    - expac
+    - file-roller
     - filezilla
+    - neovim
+    - git
+    - gksu
     - glances
     - gnome-disk-utility
     - gnome-keyring
     - gnome-screenshot
     - gnome-software
     - gnome-software-packagekit-plugin
+    - gparted
     - gpick
     - gtop
+    - hardinfo
+    - htop
     - hunspell
     - hunspell-en
     - hyphen
     - hyphen-en
+    - intltool
+    - iw
+    - jsoncpp
+    - libmtp
+    - laptop-detect
+    - lsb-release
+    - mlocate
     - nomacs
+    - p7zip
+    - plank
+    - playerctl
+    - polkit
+    - arandr
     - asciinema
     - baobab
+    - catfish
+    - cronie
+    - dconf-editor
     - dex
     - dmidecode
     - conky
+    - tumbler
+    - ffmpegthumbnailer
+    - freetype2
+    - libgsf
+    - libopenraw
+    - poppler-glib
+    - poppler-qt5
+    - gvfs
+    - gvfs-afc
+    - gvfs-gphoto2
+    - gvfs-mtp
+    - gvfs-nfs
+    - gvfs-smb
+    - mtpfs
+    - udiskie
+    - udisks2
+    - xdg-user-dirs
+    - yad
+    - yay-bin
+    - inxi
+    - mintstick-git
+    - pamac-aur
+    - python-pyparted
+    - trizen
+    - grub-customizer
+    - font-manager-git
 - name: "Applications"
   description: "Accessories , Fonts , Privacy , Git , VirtualBox"
   critical: false
   hidden: false
   selected: false
   packages:
+    - kdeconnect
+    - kdenetwork-filesharing
+    - kde-education-meta
+    - kde-games-meta
+    - kde-graphics-meta
+    - kde-multimedia-meta
+    - kde-network-meta
+    - kde-pim-meta
+    - kde-sdk-meta
+    - kde-utils-meta
+    - kde-webdev-meta
     - cheese
     - liferea
     - mediainfo
@@ -283,8 +416,24 @@
     - pdfarranger
     - terminus-font
     - awesome-terminal-fonts
+    - ttf-dejavu
+    - ttf-droid
+    - ttf-hack
+    - ttf-roboto
+    - ttf-ubuntu-font-family
+    - ttf-inconsolata
+    - ttf-liberation
     - terminus-font
     - ttf-bitstream-vera
+    - adobe-source-sans-pro-fonts
+    - noto-fonts
+    - ttf-dejavu
+    - ttf-droid
+    - ttf-hack
+    - ttf-inconsolata
+    - ttf-liberation
+    - ttf-roboto
+    - ttf-ubuntu-font-family
     - gitg
     - gitfiend
     - gitkraken
@@ -309,6 +458,7 @@
   packages:
     - adapta-gtk-theme
     - arc-icon-theme
+    - arc-gtk-theme
     - breeze
     - capitaine-cursors
     - faba-icon-theme
@@ -358,14 +508,17 @@
 - name: "Security"
   description: "Pentesting Tools"
   critical: false
-  hidden: false
+  hidden: true
   selected: false
   packages:
     - nmap
     - wireshark-qt
     - sqlmap
     - smbclient
+    - evillimiterc
+    - crackmapexec
     - john
     - hashcat
     - metasploit
+    - airgeddon-git
     - aircrack-ng
