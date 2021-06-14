@@ -4,15 +4,15 @@ componentName:  DarkOs
 strings:
     productName:         "DarkOs Linux"
     shortProductName:    DarkOs
-    version:             טטא 
-    shortVersion:        טטא
+    version:             Heracid
+    shortVersion:        Heracid
     versionedName:       DarkOs "One Hell"
     shortVersionedName:  DarkOs
     bootloaderEntryName: DarkOs
-    productUrl:          https://darkos-arch.sourceforge.io
-    supportUrl:          https://darkos-arch.sourceforge.io
-    knownIssuesUrl:      https://darkos-arch.sourceforge.io
-    releaseNotesUrl:     https://darkos-arch.sourceforge.io
+    productUrl:          https://darkos.cf
+    supportUrl:          https://docs.darkos.cf
+    knownIssuesUrl:      https://darkos.cf
+    releaseNotesUrl:     https://darkos.cf
 
 images:
     productLogo:         "squid.png"
@@ -23,6 +23,6 @@ slideshow:               "show.qml"
 slideshowAPI: 2
 
 style:
-   sidebarBackground:    "#292F34"
+   sidebarBackground:    "#241e57"
    sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#008cff"
+   sidebarTextSelect:    "#663e8a"

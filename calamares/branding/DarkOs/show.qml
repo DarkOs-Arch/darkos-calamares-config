@@ -53,7 +53,7 @@ Presentation
     Slide {
 
         Image {
-            id: background3
+            id: background2
             source: "welcome-2.png"
             width: 800; height: 450
             fillMode: Image.PreserveAspectFit
@@ -65,7 +65,7 @@ Presentation
     Slide {
 
         Image {
-            id: background4
+            id: background3
             source: "welcome-3.png"
             width: 800; height: 450
             fillMode: Image.PreserveAspectFit
@@ -77,7 +77,7 @@ Presentation
     Slide {
 
         Image {
-            id: background5
+            id: background4
             source: "welcome-4.png"
             width: 800; height: 450
             fillMode: Image.PreserveAspectFit
@@ -89,7 +89,7 @@ Presentation
     Slide {
 
         Image {
-            id: background6
+            id: background5
             source: "welcome-5.png"
             width: 800; height: 450
             fillMode: Image.PreserveAspectFit
@@ -101,7 +101,7 @@ Presentation
     Slide {
 
         Image {
-            id: background7
+            id: background6
             source: "welcome-6.png"
             width: 800; height: 450
             fillMode: Image.PreserveAspectFit
@@ -113,96 +113,29 @@ Presentation
     Slide {
 
         Image {
-            id: background8
-            source: "welcome-8.png"
-            width: 472; height: 300
+            id: background7
+            source: "welcome-7.png"
+            width: 800; height: 450
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-	Text {
-            anchors.horizontalCenter: background8.horizontalCenter
-            anchors.top: background8.bottom
-            text: "Wallpapers<br/>"+
-                  "DarkOs Has A Collection Of Decent Wallpapers.<br/>"+
-                  "Inspired By The Witcher Series."
-            wrapMode: Text.WordWrap
-            width: 800
-            horizontalAlignment: Text.Center
-
-	}
 
     }
 
     Slide {
 
         Image {
-            id: background9
-            source: "welcome-7.png"
-            width: 472; height: 300
-            fillMode: Image.PreserveAspectFit
-	    anchors.centerIn: parent
-        }
-	Text {
-            anchors.horizontalCenter: background9.horizontalCenter
-            anchors.top: background9.bottom
-            text: "Community<br/>"+
-                  "DarkOs Is A Community Guided OS .<br/>"+
-                  "Wanna Improve DarkOs Join The Community."
-            wrapMode: Text.WordWrap
-            width: 800
-            horizontalAlignment: Text.Center
-
-        }
-
-
-    }
-
-    Slide {
-
-        Image {
-            id: background10
-            source: "welcome-9.png"
+            id: background8
+            source: "welcome-8.png"
             width: 800; height: 450
             fillMode: Image.PreserveAspectFit
 	    anchors.centerIn: parent
         }
-	Text {
-            anchors.horizontalCenter: background10.horizontalCenter
-            anchors.top: background10.bottom
-            text: "Editions<br/>"+
-                  "DarkOs Has 3 Edition.<br/>"+
-                  "One Hell - Soopertrack - Schmedding "
-            wrapMode: Text.WordWrap
-            width: 800
-            horizontalAlignment: Text.Center
 
-        }
 
 
     }
 
-    Slide {
-
-        Image {
-            id: background11
-            source: "welcome-10.png"
-            width: 472; height: 300
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
-        }
-	Text {
-            anchors.horizontalCenter: background11.horizontalCenter
-            anchors.top: background11.bottom
-            text: "Enjoy Using GNU/Linux<br/>"+
-                  "That's DarkOs Goal.<br/>"
-            wrapMode: Text.WordWrap
-            width: 800
-            horizontalAlignment: Text.Center
-
-        }
-
-
-    }
     function onActivate() {
           console.log("QML Component (default slideshow) activated");
           presentation.currentSlide = 0;

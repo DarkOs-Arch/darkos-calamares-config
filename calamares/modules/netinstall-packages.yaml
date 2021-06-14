@@ -57,19 +57,14 @@
   hidden: false
   selected: false
   packages:
-    - awesome
     - bspwm
-    - herbstluftwm
     - i3-gaps
     - i3status
     - jwm
     - openbox
     - qtile
-    - xmonad
-    - xmonad-contrib
-    - haskell-dbus
-    - xmonad-log
-    - xmonad-utils
+    - icewm
+    - spectrwm
 - name: "Terminal"
   description: "Terminals"
   critical: false
@@ -97,14 +92,11 @@
   hidden: false
   selected: false
   packages:
-    - firefox
     - deluge
     - falkon
     - filezilla
     - firefox-adblock-plus
-    - firefox-i18n-$LOCALE
     - geary
-    - hexchat
     - evolution
     - chromium
     - qbittorrent
@@ -129,7 +121,7 @@
     - qtox
     - hexchat
     - remmina
-    - riot-desktop
+    - element-desktop
     - telegram-desktop
     - tigervncs
     - wire-desktop
@@ -165,7 +157,6 @@
     - thunar
     - thunar-archive-plugin
     - thunar-volman
-    - pcmanfm
     - ranger
 - name: "Multimedia"
   description: "List Of Available Audio and video software"
@@ -174,12 +165,9 @@
   selected: false
   packages:
     - ardour
-    - vlc
     - audacious
     - audacity
-    - celluloid
     - clementine
-    - simplescreenrecorder
     - pragha
     - peek
     - guvcview
@@ -195,11 +183,7 @@
     - lmms
     - obs-studio
     - openshot
-    - moc
-    - mpc
-    - mpd
     - mpv
-    - ncmpcpp
     - rhythmbox
     - soundconverter
     - smplayer
@@ -222,8 +206,6 @@
     - libreoffice-still-$LOCALE
     - hunspell-$LOCALE
     - scribus
-    - wps-office
-    - wps-office-mime
     - ttf-wps-fonts
 - name: "Utilities"
   description: "List Of Utilities And Apps"
@@ -236,40 +218,17 @@
     - baobab
     - bashtop
     - bleachbit
-    - catfish
-    - dmidecode
     - evince
-    - glances
-    - grsync
-    - gtop
-    - gufw
-    - ufw
-    - hddtemp
     - kbackup
-    - lm_sensors
-    - lshw
-    - open-vm-tools
     - powertop
     - putty
     - sigil
     - simple-scan
-    - neofetch
     - screenfetch
     - synapse
     - sysprof
     - vnstat
-    - simplescreenrecorder
-    - scrot
-    - meld
-    - youtube-dl
-    - dmenu
-    - feh
-    - gmrun
-    - picom
     - vicious
-    - volumeicon
-    - pavucontrol
-    - blueberry
     - kde-gtk-config
     - ark
     - ffmpegthumbs
@@ -280,50 +239,19 @@
     - ocs-url
     - mugshot
     - menulibre
-    - lxappearance
-    - lxappearance-gtk3
     - lxappearance-obconf
     - lxappearance-obconf-gtk3
-    - yad
-    - python-pyparted
     - pamac-aur
-    - mintstick-git
-    - inxi
-    - grub-customizer
-    - hardcode-fixer-git
-    - downgrade
-    - archiso
     - wttr
     - glxinfo
-    - zenity
-    - w3m
-    - webkit2gtk
-    - wmctrl
-    - xapps
-    - xdo
-    - xdotool
-    - unace
-    - unrar
-    - unzip
     - vnstat
     - shotwell
     - speedtest-cli
     - timeshift
     - tlp
-    - flameshot
-    - rxvt-unicode
-    - rofi
     - polkit-gnome
     - python2-dbus
-    - python2-xdg
     - qt4
-    - qt5ct
-    - qt5-styleplugins
-    - qt5-tools
-    - qt5-webkit
-    - powertop
-    - reflector
-    - redshift
     - expac
     - file-roller
     - filezilla
@@ -336,79 +264,28 @@
     - gnome-screenshot
     - gnome-software
     - gnome-software-packagekit-plugin
-    - gparted
     - gpick
-    - gtop
-    - hardinfo
-    - htop
     - hunspell
     - hunspell-en
     - hyphen
     - hyphen-en
     - intltool
     - iw
-    - jsoncpp
-    - libmtp
-    - laptop-detect
     - lsb-release
-    - mlocate
     - nomacs
-    - p7zip
     - plank
-    - playerctl
-    - polkit
-    - arandr
     - asciinema
     - baobab
-    - catfish
     - cronie
-    - dconf-editor
     - dex
-    - dmidecode
     - conky
-    - tumbler
-    - ffmpegthumbnailer
-    - freetype2
-    - libgsf
-    - libopenraw
-    - poppler-glib
-    - poppler-qt5
-    - gvfs
-    - gvfs-afc
-    - gvfs-gphoto2
-    - gvfs-mtp
-    - gvfs-nfs
-    - gvfs-smb
-    - mtpfs
-    - udiskie
-    - udisks2
-    - xdg-user-dirs
-    - yad
-    - yay-bin
-    - inxi
-    - mintstick-git
     - pamac-aur
-    - python-pyparted
-    - trizen
-    - grub-customizer
-    - font-manager-git
 - name: "Applications"
   description: "Accessories , Fonts , Privacy , Git , VirtualBox"
   critical: false
   hidden: false
   selected: false
   packages:
-    - kdeconnect
-    - kdenetwork-filesharing
-    - kde-education-meta
-    - kde-games-meta
-    - kde-graphics-meta
-    - kde-multimedia-meta
-    - kde-network-meta
-    - kde-pim-meta
-    - kde-sdk-meta
-    - kde-utils-meta
-    - kde-webdev-meta
     - cheese
     - liferea
     - mediainfo
@@ -446,7 +323,6 @@
     - woeusb
     - virtualbox
     - virtualbox-host-dkms
-    - linux-headers
     - virtualbox
     - virtualbox-host-dkms
     - linux-lts-headers
@@ -481,7 +357,6 @@
     - darktable
     - digikam
     - krita
-    - gimp
 - name: "Games"
   description: "Awesome Linux Games"
   critical: false
