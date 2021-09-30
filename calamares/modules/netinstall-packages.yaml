@@ -62,7 +62,6 @@
     - i3status
     - jwm
     - openbox
-    - qtile
     - icewm
     - spectrwm
 - name: "Terminal"
