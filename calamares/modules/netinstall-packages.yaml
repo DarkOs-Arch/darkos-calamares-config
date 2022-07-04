@@ -1,13 +1,19 @@
 - name: "Kernel"
-  description: "List Of Available Kernels To Install"
+  description: "List Of Available Kernels/DRIVERS"
   critical: false
   hidden: false
   selected: false
   packages:
-    - linux
     - linux-lts
+    - linux-lts-headers
     - linux-hardened
+    - linux-hardened-headers
     - linux-zen
+    - linux-zen-headers
+    - linux-xanmod-tt
+    - linux-xanmod-tt-headers
+    - linux-bore
+    - linux-bore-headers
     - nvidia
     - nvidia-lts
     - nvidia-settings
@@ -34,20 +40,8 @@
     - mate
     - mate-extra
     - mate-tweak
+    - plasma
     - plasma-meta
-    - kde-applications-meta
-    - kde-system-meta
-    - kde-accessibility-meta
-    - kdeconnect
-    - kdenetwork-filesharing
-    - kde-education-meta
-    - kde-games-meta
-    - kde-graphics-meta
-    - kde-multimedia-meta
-    - kde-network-meta
-    - kde-pim-meta
-    - kde-sdk-meta
-    - kde-webdev-meta
     - xfce4
     - xfce4-goodies
     - enlightenment
@@ -70,8 +64,8 @@
   hidden: false
   selected: false
   packages:
-    - xterm
     - alacritty
+    - alacritty-ligatures-git
     - gnome-terminal
     - guake
     - kitty
@@ -139,7 +133,6 @@
     - kate
     - leafpad
     - notepadqq
-    - xed
     - openscad
     - pycharm-community-edition
 - name: "File Managers"
@@ -255,7 +248,6 @@
     - file-roller
     - filezilla
     - neovim
-    - git
     - gksu
     - glances
     - gnome-disk-utility
@@ -322,9 +314,7 @@
     - woeusb
     - virtualbox
     - virtualbox-host-dkms
-    - virtualbox
-    - virtualbox-host-dkms
-    - linux-lts-headers
+    - virtualbox-host-modules-arch
 - name: "Theming"
   description: "Themes , icons , cursors"
   critical: false
@@ -345,7 +335,6 @@
     - xcursor-flatbed
     - xcursor-neutral
     - xcursor-premium
-    - xcursor-simpleandsoft
 - name: "Graphics"
   description: "Graphics"
   critical: false
